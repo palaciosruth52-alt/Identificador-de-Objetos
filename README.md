@@ -41,7 +41,6 @@ CIFAR-10 contiene imágenes clasificadas en diez categorías:
 | 7 |  Caballo |
 | 8 |  Barco |
 | 9 |  Camión |
-| 10 | Persona |
 
 Las imágenes originales del dataset tienen un tamaño de 32 × 32 píxeles y tres canales de color RGB.
 
