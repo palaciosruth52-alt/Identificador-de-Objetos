@@ -267,10 +267,4 @@ if imagen_archivo is not None:
             probabilidad
         )
 
-st.divider()
 
-
-    El modelo fue entrenado utilizando el dataset CIFAR-10,
-    compuesto por diez categorías de objetos.
-    """
-)
