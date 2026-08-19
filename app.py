@@ -7,7 +7,7 @@ import os
 
 st.set_page_config(
     page_title="ImageClassify",
-    page_icon="🖼️",
+    page_icon="",
     layout="wide"
 )
 
@@ -269,14 +269,6 @@ if imagen_archivo is not None:
 
 st.divider()
 
-st.subheader(
-    "ℹ️ Sobre el proyecto"
-)
-
-st.write(
-    """
-    ImageClassify es un proyecto académico de Machine Learning
-    desarrollado utilizando Python, TensorFlow, Keras y Streamlit.
 
     El modelo fue entrenado utilizando el dataset CIFAR-10,
     compuesto por diez categorías de objetos.
