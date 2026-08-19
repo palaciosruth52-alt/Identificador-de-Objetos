@@ -1,5 +1,3 @@
-# 🖼️ ImageClassify
-
 ## Servicio Web de Clasificación de Imágenes mediante Machine Learning
 
 ImageClassify es una aplicación web desarrollada con Python y Streamlit que utiliza un modelo de aprendizaje automático para identificar y clasificar objetos presentes en imágenes.
@@ -8,30 +6,24 @@ El sistema permite al usuario cargar una imagen desde su dispositivo o tomar una
 
 El proyecto fue desarrollado utilizando Google Colab para el entrenamiento del modelo y Streamlit Community Cloud para el despliegue de la aplicación.
 
----
-
-# 🎯 Objetivo
+#  Objetivo
 
 Desarrollar e implementar un Servicio Web basado en Machine Learning capaz de clasificar imágenes utilizando un modelo de Redes Neuronales Convolucionales y ponerlo a disposición de los usuarios mediante una aplicación web desplegada en la nube.
 
----
-
-# 🚀 Funcionalidades
+#  Funcionalidades
 
 La aplicación permite:
 
-- 📁 Subir imágenes desde el dispositivo.
-- 📷 Tomar fotografías utilizando la cámara.
-- 🖼️ Mostrar la imagen seleccionada.
-- 🤖 Clasificar la imagen mediante Machine Learning.
-- 📊 Mostrar el porcentaje de confianza.
-- 📈 Mostrar las probabilidades de todas las categorías.
-- ☁️ Ejecutarse como una aplicación web en la nube.
-- 👤 Mostrar información del autor.
+-  Subir imágenes desde el dispositivo.
+-  Tomar fotografías utilizando la cámara.
+-  Mostrar la imagen seleccionada.
+-  Clasificar la imagen mediante Machine Learning.
+-  Mostrar el porcentaje de confianza.
+-  Mostrar las probabilidades de todas las categorías.
+-  Ejecutarse como una aplicación web en la nube.
+-  Mostrar información del autor.
 
----
-
-# 🧠 Dataset utilizado
+#  Dataset utilizado
 
 El proyecto utiliza el dataset **CIFAR-10**.
 
@@ -39,22 +31,22 @@ CIFAR-10 contiene imágenes clasificadas en diez categorías:
 
 | Número | Categoría |
 |---:|---|
-| 0 | ✈️ Avión |
-| 1 | 🚗 Automóvil |
-| 2 | 🐦 Pájaro |
-| 3 | 🐱 Gato |
-| 4 | 🦌 Ciervo |
-| 5 | 🐕 Perro |
-| 6 | 🐸 Rana |
-| 7 | 🐎 Caballo |
-| 8 | 🚢 Barco |
-| 9 | 🚚 Camión |
+| 0 |  Avión |
+| 1 |  Automóvil |
+| 2 |  Pájaro |
+| 3 |  Gato |
+| 4 |  Ciervo |
+| 5 |  Perro |
+| 6 |  Rana |
+| 7 |  Caballo |
+| 8 |  Barco |
+| 9 |  Camión |
+| 10 | Persona |
 
 Las imágenes originales del dataset tienen un tamaño de 32 × 32 píxeles y tres canales de color RGB.
 
----
 
-# 🧠 Modelo de Machine Learning
+#  Modelo de Machine Learning
 
 Para realizar la clasificación se desarrolló una **Red Neuronal Convolucional (CNN)** utilizando TensorFlow y Keras.
 
@@ -69,9 +61,7 @@ La arquitectura utiliza:
 
 La capa final utiliza la función de activación Softmax para obtener las probabilidades correspondientes a cada categoría.
 
----
-
-# 📊 Resultados del modelo
+#  Resultados del modelo
 
 El modelo fue evaluado utilizando el conjunto de prueba de CIFAR-10.
 
@@ -94,13 +84,14 @@ El modelo obtuvo los siguientes resultados:
 | Barco | 79% | 83% | 81% |
 | Camión | 80% | 81% | 80% |
 
+
 El resultado muestra que el modelo presenta un mejor desempeño en categorías como Automóvil, Barco, Camión y Rana.
 
 Las categorías Gato, Perro y Pájaro presentan mayor dificultad de clasificación debido a la similitud visual entre algunas imágenes.
 
 ---
 
-# 🏗️ Arquitectura del sistema
+#  Arquitectura del sistema
 
 La arquitectura general del proyecto es:
 
